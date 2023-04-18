@@ -1,0 +1,13 @@
+declare const allConfig: any;
+declare const config: any;
+declare const mysql: any;
+declare const pool: any;
+declare let query: (sql: any, values: any) => Promise<unknown>;
+declare let createTable: (sql: any) => Promise<unknown>;
+declare let findDataById: (table: any, id: any) => Promise<unknown>;
+declare let findDataByPage: (table: any, keys: any, start: any, end: any) => Promise<unknown>;
+declare let insertData: (table: any, values: any) => Promise<unknown>;
+declare let updateData: (table: any, values: any, id: any) => Promise<unknown>;
+declare let deleteDataById: (table: any, id: any) => Promise<unknown>;
+declare let select: (table: any, keys: any) => Promise<unknown>;
+declare let count: (table: any) => Promise<unknown>;

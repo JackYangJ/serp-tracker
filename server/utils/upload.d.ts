@@ -1,0 +1,10 @@
+declare const inspect: any;
+declare const path: any;
+declare const os: any;
+declare const fs: any;
+declare const Busboy: any;
+declare const UtilType: any;
+declare const UtilDatetime: any;
+declare function mkdirsSync(dirname: any): true | undefined;
+declare function getSuffixName(fileName: any): any;
+declare function uploadPicture(ctx: any, options: any): Promise<unknown>;
